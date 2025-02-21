@@ -2,11 +2,19 @@
 $white: #fff;
 $gray: #DFE1E2;
 $gray-dark: #636C72;
+$black-light: #252B2F;
 $black: #0D1418;
 $red-light: #E23131;
 $red: #CC0000;
 $red-dark: #9E0000;
+$red-text: #EE1414;
+
+$white-opacity: rgba(255, 255, 255, .5);
 $red-opacity: rgba(226, 49, 49, 50%);
+
+$bg-black: #1C222E;
+$bg-gray: #f4f4f4;
+$bg-gray-dark: #efefef;
 
 $enable-shadows: true;
 $prefix: "alc-";
@@ -42,6 +50,7 @@ $spacers: (
   15px: 15px,
   20px: 20px,
   30px: 30px,
+  40px: 40px,
   50px: 50px,
   60px: 60px
 );
@@ -52,6 +61,7 @@ $gutters: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
+  10px: 10px,
   20px: 20px,
   30px: 30px,
   60px: 60px

@@ -1,0 +1,39 @@
+.banner {
+    &-box {
+        padding: 60px;
+        border-radius: 30px;
+        position: relative;
+
+        &__image {
+            position: absolute;
+            width: 290px;
+            height: 290px;
+            right: 0;
+            bottom: 0;
+        }
+
+        &.--red {
+            background: linear-gradient(180deg, #FF4848 0%, #CC0000 100%);
+        }
+
+        @media (max-width: 991px) {
+            &__image {
+                width: 185px;
+                height: 185px;
+            }
+        } 
+
+        @media (max-width: 768px) {
+            padding: 30px 30px 120px 30px;
+        } 
+
+        @media (max-width: 480px) {
+            padding: 30px 20px 135px 20px;
+
+            &__image {
+                width: 125px;
+                height: 125px;
+            }
+        } 
+    }
+}

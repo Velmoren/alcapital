@@ -1,0 +1,98 @@
+.card-info {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: $black-light;
+    gap: 10px;
+    height: 100%;
+
+    &.--type-1 {
+        padding-bottom: 150px;
+        background-image: url('/images/info/bg-image-1.png');
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: contain;
+    }
+
+    &.--type-2 {
+        padding-bottom: 150px;
+        background-image: url('/images/info/bg-image-2.png');
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: contain;
+    }
+
+    &.--type-3 {
+        padding: 30px 400px 30px 30px;
+        background-image: url('/images/info/bg-image-3.png');
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: contain;
+    }
+
+    &.--type-4 {
+        padding-bottom: 150px;
+        background-image: url('/images/info/bg-image-4.png');
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: contain;
+    }
+
+    @media (max-width: 1320px) {
+        &.--type-1 {
+            padding-bottom: 70px;
+        }
+
+        &.--type-2 {
+            padding-bottom: 70px;
+        }
+
+        &.--type-3 {
+            padding-right: 170px;
+        }
+
+        &.--type-4 {
+            padding-bottom: 70px;
+        }
+    }
+
+    @media (max-width: 991px) {
+        &.--type-1 {
+            padding: 30px 30px 130px 30px;
+        }
+
+        &.--type-2 {
+            padding: 30px 30px 130px 30px;
+        }
+
+        &.--type-3 {
+            padding: 30px 30px 130px 30px;
+            background-image: url('/images/info/bg-image-5.png');
+            background-position: bottom center;
+        }
+
+        &.--type-4 {
+            padding: 30px 30px 130px 30px;
+            background-image: url('/images/info/bg-image-6.png');
+        }
+    }
+
+    @media (max-width: 768px) {
+        &.--type-1,
+        &.--type-2,
+        &.--type-3,
+        &.--type-4 {
+            padding: 20px 20px 120px 20px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        &.--type-1,
+        &.--type-2,
+        &.--type-3,
+        &.--type-4 {
+            padding: 20px 20px 80px 20px;
+        }
+    }
+}

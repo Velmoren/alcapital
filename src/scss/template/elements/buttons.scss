@@ -41,6 +41,20 @@
         }
     }
 
+    &.btn-white {
+        &:not(&.btn-outline) {
+            background: $white;
+            outline: 4px solid $white-opacity;
+            color: $red;
+        }
+        &.btn-outline {
+            box-shadow: none;
+            background: $white;
+            color: $red;
+            outline: 1px solid $white-opacity;
+        }
+    }
+
     &.btn--sm {
         border-radius: 15px;
         font-size: 14px;

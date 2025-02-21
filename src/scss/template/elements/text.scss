@@ -17,7 +17,17 @@
         line-height: 140%;
     }
 
-    @media (max-width: 991px) {
+    &--extra-sm {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
+    @media (max-width: 1320px) {
+        &--lg {
+            font-size: 18px;
+        }
+
         &--sm {
             font-size: 14px;
         }

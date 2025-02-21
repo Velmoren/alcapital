@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: $gray;
+    background-color: $bg-gray;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -47,5 +47,23 @@ section {
 
     &--dark-gray {
         color: $gray-dark;
+    }
+
+    &--white {
+        color: $white;
+    }
+
+    &--red {
+        color: $red-text;
+    }
+}
+
+.bg {
+    &-black {
+        background-color: $bg-black;
+    }
+
+    &-gray-dark {
+        background-color: $bg-gray-dark;
     }
 }

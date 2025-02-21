@@ -1,0 +1,88 @@
+.info {
+    hr {
+        background-color: $gray-dark;
+        border-color: $gray-dark;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    &__description {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        &--divider {
+            margin-left: 50px;
+            margin-right: 50px;
+            height: 100%;
+            width: 2px;
+            background-color: $gray-dark;
+        }
+
+        @media (max-width: 1320px) {
+            &--divider {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            width: 100%;
+            justify-content: space-between;
+
+            &--divider {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+
+        // &--item {
+        //     &:not(:last-child) {
+        //         padding-right: 50px;
+        //         margin-right: 50px;
+        //         border-right: 1px solid $gray-dark;
+        //     }
+        // }
+
+        // @media (max-width: 1320px) {
+        //     &--item {
+        //         &:not(:last-child) {
+        //             padding-right: 25px;
+        //             margin-right: 25px;
+        //         }
+        //     }
+        // }
+    }
+
+    &__banks--item {
+        padding: 16px;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 10%);
+
+        img {
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            padding: 12px;
+        }
+
+        @media (max-width: 480px) {
+            padding: 4px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        hr {
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        hr {
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+    }
+}
