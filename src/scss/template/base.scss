@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: $white;
+    background-color: $gray;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@ main {
     flex-grow: 1;
 }
 
-.section {
+section {
     padding-top: 60px;
     padding-bottom: 60px;
 
@@ -37,6 +37,10 @@ main {
 }
 
 .color {
+    &--black {
+        color: $black;
+    }
+
     &--gray {
         color: $gray;
     }

@@ -6,6 +6,7 @@ $black: #0D1418;
 $red-light: #E23131;
 $red: #CC0000;
 $red-dark: #9E0000;
+$red-opacity: rgba(226, 49, 49, 50%);
 
 $enable-shadows: true;
 $prefix: "alc-";
@@ -38,9 +39,11 @@ $spacers: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
+  15px: 15px,
   20px: 20px,
   30px: 30px,
-  50px: 50px
+  50px: 50px,
+  60px: 60px
 );
 $gutters: (
   0: 0,

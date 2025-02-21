@@ -46,11 +46,39 @@
         &--extra-lg {
             font-size: 48px;
         }
+
+        &--md {
+            font-size: 40px;
+        }
+
+        &--extra-md {
+            font-size: 30px;
+        }
+
+        &--extra-sm {
+            font-size: 18px;
+        }
     }
 
     @media (max-width: 768px) {
         &--extra-lg {
             font-size: 36px;
+        }
+
+        &--md {
+            font-size: 36px;
+        }
+
+        &--extra-md {
+            font-size: 24px;
+        }
+
+        &--sm {
+            font-size: 24px;
+        }
+
+        &--extra-sm {
+            font-size: 16px;
         }
     }
 
@@ -61,6 +89,18 @@
     @media (max-width: 480px) {
         &--extra-lg {
             font-size: 28px;
+        }
+
+        &--md {
+            font-size: 28px;
+        }
+
+        &--extra-md {
+            font-size: 20px;
+        }
+
+        &--sm {
+            font-size: 20px;
         }
     }
 
