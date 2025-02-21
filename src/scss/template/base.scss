@@ -1,9 +1,9 @@
 * {
-    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-family: 'Onest', sans-serif;
 }
 
 body {
-    background-color: $text-white;
+    background-color: $white;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -22,26 +22,26 @@ main {
 }
 
 .section {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
-    @media (max-width: 480px) {
-        padding-top: 75px;
-        padding-bottom: 75px;
-    }
-
-    @media (max-width: 360px) {
+    @media (max-width: 991px) {
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
+    @media (max-width: 768px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
 
-.--bg-dark-blue {
-    background: $text-dark-blue;
-}
-.--bg-light-blue {
-    background: $text-light-blue;
-}
-.--bg-black {
-    background: $text-black;
+.color {
+    &--gray {
+        color: $gray;
+    }
+
+    &--dark-gray {
+        color: $gray-dark;
+    }
 }

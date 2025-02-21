@@ -1,0 +1,70 @@
+.title {
+    &--extra-lg {
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 110%;
+    }
+
+    &--lg {
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 110%;
+    }
+
+    &--md {
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 110%;
+    }
+
+    &--extra-md {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 110%;
+    }
+
+    &--sm {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 110%;
+    }
+
+    &--extra-sm {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 140%;
+    }
+
+    &--gradient {
+        background: linear-gradient(180deg, #FFFFFF 5.28%, #8A6767 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    @media (max-width: 1320px) {
+        &--extra-lg {
+            font-size: 48px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        &--extra-lg {
+            font-size: 36px;
+        }
+    }
+
+    @media (max-width: 576px) {
+
+    }
+
+    @media (max-width: 480px) {
+        &--extra-lg {
+            font-size: 28px;
+        }
+    }
+
+    @media (max-width: 360px) {
+    
+    }
+}

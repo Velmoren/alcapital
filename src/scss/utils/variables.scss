@@ -1,28 +1,22 @@
 // // Variable overrides second
-$text-white: #fdfdff;
-$text-ultra-light-blue: #e8f7ff;
-$text-light-blue: #bdf3ff;
-$text-blue: #1bd6ff;
-$text-dark-blue: #3a95ef;
-$text-gray: #696e7e;
-$text-black: #344455;
-
-$primary-gradient: linear-gradient(0deg, #344455 0%, #22639E 100%);
-
-$primary: $text-dark-blue;
-$primary-hovered: $text-dark-blue;
-$secondary-hovered: $text-black;
+$white: #fff;
+$gray: #DFE1E2;
+$gray-dark: #636C72;
+$black: #0D1418;
+$red-light: #E23131;
+$red: #CC0000;
+$red-dark: #9E0000;
 
 $enable-shadows: true;
-$prefix: "era-";
+$prefix: "alc-";
 
 $container-max-widths: (
   xxs: 100%,
   xs: 100%,
-  sm: 480px,
+  sm: 504px,
   md: 714px,
-  lg: 930px,
-  xl: 1290px
+  lg: 954px,
+  xl: 1314px
 );
 
 $grid-breakpoints: (
@@ -43,7 +37,10 @@ $spacers: (
   2: $spacer * .5,
   3: $spacer,
   4: $spacer * 1.5,
-  5: $spacer * 3
+  5: $spacer * 3,
+  20px: 20px,
+  30px: 30px,
+  50px: 50px
 );
 $gutters: (
   0: 0,
@@ -51,5 +48,8 @@ $gutters: (
   2: $spacer * .5,
   3: $spacer,
   4: $spacer * 1.5,
-  5: $spacer * 3
+  5: $spacer * 3,
+  20px: 20px,
+  30px: 30px,
+  60px: 60px
 );

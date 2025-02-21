@@ -12,11 +12,14 @@
 @import "./libs/hover.css";
 
 // ELEMENTS
-// @import "./template/elements/title.scss";
-// @import "./template/elements/text.scss";
+@import "./template/elements/title-group.scss";
+@import "./template/elements/title.scss";
+@import "./template/elements/text.scss";
+@import "./template/elements/buttons.scss";
+@import "./template/elements/carousel.scss";
 
 // SECTIONS
-// @import "./template/sections/hero.scss";
+@import "./template/sections/main-hero.scss";
 
 // PAGES
 // @import "./template/pages/main-page.scss";
