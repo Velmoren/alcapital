@@ -6,6 +6,8 @@
     min-height: 52px;
     border-radius: 30px;
     transition: opacity .3s;
+    display: inline-flex;
+    align-items: center;
 
     &:not(&.btn-outline) {
         box-shadow: none;
