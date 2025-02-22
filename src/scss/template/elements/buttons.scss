@@ -8,12 +8,13 @@
     transition: opacity .3s;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
 
     &:not(&.btn-outline) {
         box-shadow: none;
         background-color: $white;
         color: $black;
-        outline: 4px solid $white;
+        outline: none;
     }
 
     &.btn-outline {
