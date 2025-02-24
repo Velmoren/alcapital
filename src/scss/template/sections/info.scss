@@ -6,6 +6,10 @@
         margin-bottom: 70px;
     }
 
+    img {
+        max-width: 100%;
+    }
+
     &__description {
         display: flex;
         justify-content: flex-end;
@@ -35,23 +39,6 @@
                 margin-right: 10px;
             }
         }
-
-        // &--item {
-        //     &:not(:last-child) {
-        //         padding-right: 50px;
-        //         margin-right: 50px;
-        //         border-right: 1px solid $gray-dark;
-        //     }
-        // }
-
-        // @media (max-width: 1320px) {
-        //     &--item {
-        //         &:not(:last-child) {
-        //             padding-right: 25px;
-        //             margin-right: 25px;
-        //         }
-        //     }
-        // }
     }
 
     &__banks--item {
@@ -69,6 +56,36 @@
 
         @media (max-width: 480px) {
             padding: 4px;
+        }
+    }
+
+    &__bg-image-block {
+        &.--bg-1 {
+            border-radius: 30px;
+            height: 500px;
+            width: 100%;
+            background-image: url('/images/info/image-6.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        @media (max-width: 991px) {
+            &.--bg-1 {
+                height: 400px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            &.--bg-1 {
+                height: 250px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            &.--bg-1 {
+                height: 180px;
+            }
         }
     }
 
