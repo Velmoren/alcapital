@@ -16,6 +16,12 @@
             background-position: bottom right, center;
             background-size: 270px, contain;
         }
+        &.--bg-image-3 {
+            background-image: url('/images/banner/image-3.png'), linear-gradient(180deg, #FF4848 0%, #CC0000 100%);
+            background-repeat: no-repeat;
+            background-position: bottom right, center;
+            background-size: 270px, contain;
+        }
 
         @media (max-width: 991px) {
             &.--bg-image-1 {
@@ -31,6 +37,9 @@
                 padding: 30px 30px 120px 30px;
             }
             &.--bg-image-2 {
+                background-size: 200px, contain;
+            }
+            &.--bg-image-3 {
                 background-size: 200px, contain;
             }
         } 

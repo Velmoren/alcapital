@@ -14,16 +14,20 @@
         background-size: 750px, cover;
         background-position: calc(50% + 300px) bottom, center bottom;
     }
-
     &.esg-hero {
         background-image: url('/images/hero/hero-bg-img-2.png'), url('/images/hero/hero-bg-1.png');
         background-repeat: no-repeat, no-repeat;
         background-size: 750px, cover;
         background-position: calc(50% + 300px) bottom, center bottom;   
     }
-
     &.islamic-accounts-hero {
         background-image: url('/images/hero/hero-bg-img-3.png'), url('/images/hero/hero-bg-1.png');
+        background-repeat: no-repeat, no-repeat;
+        background-size: 750px, cover;
+        background-position: calc(50% + 300px) bottom, center bottom;  
+    }
+    &.trade-robot-hero {
+        background-image: url('/images/hero/hero-bg-img-4.png'), url('/images/hero/hero-bg-1.png');
         background-repeat: no-repeat, no-repeat;
         background-size: 750px, cover;
         background-position: calc(50% + 300px) bottom, center bottom;  
@@ -54,6 +58,12 @@
             background-size: 500px, cover;
             background-position: calc(50% + 300px) bottom, center bottom;  
         }
+        &.trade-robot-hero {
+            background-image: url('/images/hero/hero-bg-img-4.png'), url('/images/hero/hero-bg-1.png');
+            background-repeat: no-repeat, no-repeat;
+            background-size: 500px, cover;
+            background-position: calc(50% + 300px) bottom, center bottom;  
+        }
     }
 
     @media (max-width: 991px) {
@@ -77,6 +87,12 @@
         }
         &.islamic-accounts-hero {
             background-image: url('/images/hero/hero-bg-img-3.png'), url('/images/hero/hero-bg-1-tablet.png');
+            background-repeat: no-repeat, no-repeat;
+            background-size: 500px, cover;
+            background-position: 50% bottom, center bottom;
+        }
+        &.trade-robot-hero {
+            background-image: url('/images/hero/hero-bg-img-4.png'), url('/images/hero/hero-bg-1-tablet.png');
             background-repeat: no-repeat, no-repeat;
             background-size: 500px, cover;
             background-position: 50% bottom, center bottom;
@@ -109,6 +125,12 @@
             background-size: 450px, cover;
             background-position: 50% bottom, center bottom;
         }
+        &.trade-robot-hero {
+            background-image: url('/images/hero/hero-bg-img-4.png'), url('/images/hero/hero-bg-1-mobile.png');
+            background-repeat: no-repeat, no-repeat;
+            background-size: 450px, cover;
+            background-position: 50% bottom, center bottom;
+        }
     }
 
     @media (max-width: 480px) {
@@ -133,6 +155,12 @@
         }
         &.islamic-accounts-hero {
             background-image: url('/images/hero/hero-bg-img-3.png'), url('/images/hero/hero-bg-1-mobile.png');
+            background-repeat: no-repeat, no-repeat;
+            background-size: 330px, cover;
+            background-position: 50% bottom, center bottom;
+        }
+        &.trade-robot-hero {
+            background-image: url('/images/hero/hero-bg-img-4.png'), url('/images/hero/hero-bg-1-mobile.png');
             background-repeat: no-repeat, no-repeat;
             background-size: 330px, cover;
             background-position: 50% bottom, center bottom;
