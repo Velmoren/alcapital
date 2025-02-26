@@ -70,6 +70,16 @@
             background-size: cover;
         }
 
+        &.--bg-2 {
+            border-radius: 30px;
+            height: 500px;
+            width: 100%;
+            background-image: url('/images/info/image-10.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
         @media (max-width: 991px) {
             &.--bg-1 {
                 height: 400px;
