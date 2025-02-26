@@ -35,6 +35,10 @@
         background-image: url('/images/hero/hero-bg-img-6.png'), url('/images/hero/hero-bg-1.png');
     }
 
+    &.honors-hero {
+        background-image: url('/images/hero/hero-bg-img-7.png'), url('/images/hero/hero-bg-1.png');
+    }
+
     @media (max-width: 1320px) {
         min-height: 530px;
         background-repeat: no-repeat, no-repeat;
@@ -79,6 +83,10 @@
         &.platform-hero {
             background-image: url('/images/hero/hero-bg-img-6.png'), url('/images/hero/hero-bg-1-tablet.png');
         }
+
+        &.honors-hero {
+            background-image: url('/images/hero/hero-bg-img-7.png'), url('/images/hero/hero-bg-1-tablet.png');
+        }
     }
 
     @media (max-width: 768px) {
@@ -114,6 +122,10 @@
 
         &.platform-hero {
             background-image: url('/images/hero/hero-bg-img-6.png'), url('/images/hero/hero-bg-1-mobile.png');
+        }
+
+        &.honors-hero {
+            background-image: url('/images/hero/hero-bg-img-7.png'), url('/images/hero/hero-bg-1-mobile.png');
         }
     }
 

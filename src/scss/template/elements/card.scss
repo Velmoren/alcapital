@@ -26,6 +26,18 @@
         }
     }
 
+    &__preview {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        &--image {
+            height: 265px;
+            width: auto;
+        }
+    }
+
     &--index {
         font-size: 30px;
         line-height: 120%;
