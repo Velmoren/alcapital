@@ -38,6 +38,18 @@
     &.honors-hero {
         background-image: url('/images/hero/hero-bg-img-7.png'), url('/images/hero/hero-bg-1.png');
     }
+    
+    &.documents-hero {
+        background-image: url('/images/hero/hero-bg-img-8.png'), url('/images/hero/hero-bg-1.png');
+
+        .title-hero-group {
+            padding-top: 74px;
+
+            .text {
+                max-width: 700px;
+            }
+        }
+    }
 
     @media (max-width: 1320px) {
         min-height: 530px;
@@ -47,6 +59,16 @@
 
         .title-hero-group {
             padding-top: 75px;
+        }
+
+        &.documents-hero {
+            .title-hero-group {
+                padding-top: 55px;
+    
+                .text {
+                    max-width: 650px;
+                }
+            }
         }
     }
 
@@ -86,6 +108,10 @@
 
         &.honors-hero {
             background-image: url('/images/hero/hero-bg-img-7.png'), url('/images/hero/hero-bg-1-tablet.png');
+        }
+
+        &.documents-hero {
+            background-image: url('/images/hero/hero-bg-img-8.png'), url('/images/hero/hero-bg-1-tablet.png');
         }
     }
 
@@ -127,6 +153,10 @@
         &.honors-hero {
             background-image: url('/images/hero/hero-bg-img-7.png'), url('/images/hero/hero-bg-1-mobile.png');
         }
+
+        &.documents-hero {
+            background-image: url('/images/hero/hero-bg-img-8.png'), url('/images/hero/hero-bg-1-mobile.png');
+        }
     }
 
     @media (max-width: 480px) {
@@ -138,6 +168,12 @@
 
         .title-hero-group {
             padding-top: 50px;
+        }
+
+        &.documents-hero {
+            .title-hero-group {
+                padding-bottom: 140px;
+            }
         }
     }
 }
