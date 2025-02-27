@@ -11,8 +11,8 @@
   <link rel="manifest" href="https://velmoren.github.io/alcapital/site.webmanifest" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alcapital</title>
-  <script type="module" crossorigin src="https://velmoren.github.io/alcapital/assets/main-D96OQYt0.js"></script>
-  <link rel="stylesheet" crossorigin href="https://velmoren.github.io/alcapital/assets/main-CyBXUd7h.css">
+  <script type="module" crossorigin src="https://velmoren.github.io/alcapital/assets/main-CGdeQrNk.js"></script>
+  <link rel="stylesheet" crossorigin href="https://velmoren.github.io/alcapital/assets/main-J24jWn4p.css">
 </head>
 
 <body>
@@ -37,12 +37,29 @@
                   </button>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarScroll">
-                  <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                    <li class="nav-item">
-                      <a class="nav-link" href="/">О компании</a>
+                  <ul class="navbar-nav ms-auto me-4 my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        О компании
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/">История компании</a></li>
+                        <li><a class="dropdown-item" href="/">Юридические документы</a></li>
+                        <li><a class="dropdown-item" href="/">Контакты</a></li>
+                        <li><a class="dropdown-item" href="/">Награды</a></li>
+                      </ul>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="/">Торговля</a>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Торговля
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/">Типы счетов </a></li>
+                        <li><a class="dropdown-item" href="/">ESG</a></li>
+                        <li><a class="dropdown-item" href="/">Исламские счета</a></li>
+                      </ul>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="/">Платформа</a>
@@ -55,7 +72,7 @@
                   <div class="header-controls flex-wrap">
                     <a href="#" class="btn btn-red btn--sm btn-outline d-block d-xxs-none d-lg-block">Войти</a>
                     <a href="#" class="btn btn--sm">Регистрация</a>
-                 
+
                     <div class="language-select">
                       <ul class="language-select__list">
                         <!-- если необходима ссылка - обернуть текст в <a>Рус</a> -->
@@ -266,7 +283,8 @@
               </p>
             </div>
 
-            <div class="col col-12 col-lg-6 col-xl-7 d-flex flex-column align-items-start align-items-lg-end justify-content-end">
+            <div
+              class="col col-12 col-lg-6 col-xl-7 d-flex flex-column align-items-start align-items-lg-end justify-content-end">
               <div class="info__description">
                 <div class="info__description--item">
                   <h4 class="title title--extra-md color--red">3.1 млн</h4>
@@ -710,14 +728,14 @@
 
           <div class="col col-12 col-sm-6 col-md-3">
             <div class="footer-nav__links">
-              <h5 class="footer-nav__links--title">Documents</h5>
+              <a href="/" class="footer-nav__links--title --link">Платформа</a>
               <ul class="footer-nav__links--list"></ul>
             </div>
           </div>
 
           <div class="col col-12 col-sm-6 col-md-3">
             <div class="footer-nav__links">
-              <h5 class="footer-nav__links--title">Documents</h5>
+              <a href="/" class="footer-nav__links--title --link">База знаний</a>
               <ul class="footer-nav__links--list"></ul>
             </div>
           </div>
